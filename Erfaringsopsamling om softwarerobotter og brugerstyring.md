@@ -577,7 +577,9 @@ Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egn
 
 Dette afsnit tager udgangspunkt i [_Vejledning til risikostyring indenfor informationssikkerhed_](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) _(_Digitaliseringsstyrelsen 2020), som har til formål at hjælpe med at etablere en risikostyringsproces. Vejledningen beskriver hovedaktiviteterne i risikostyring, som vi her giver en oversigt over med fokus på særlige aspekter i forhold arbejdet med softwarerobotter. Nedenstående figur fra vejledningen er inspireret af ISO 27005 standarden for risikostyring og illustrerer risikostyringsprocessen.
 
-![Figuren viser hovedaktiviteterne i risikostyring, som også forklares i teksten, der kommer efter figuren,](/sites/default/fileuploads/Metoder/Arkitekturmetoder/Erfaringsopsamling_om_softwarerobotter_og_brugerstyring/Figur%207.jpg)
+
+
+![Figur 7.jpg](assets/b26718e59ff0eed324ddc58411b6decf7c0ce3fd.jpg)
 
 *Figur 7 Figuren viser hovedaktiviteterne i risikostyring, som også forklares i teksten, der kommer efter figuren.*
 
