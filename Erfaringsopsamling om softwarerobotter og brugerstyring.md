@@ -571,9 +571,7 @@ Dette kapitel gennemgår en række vigtige aspekter af arbejdet med informations
 
 Anvendelsen af softwarerobotter til procesautomatisering kan som al anden softwareanvendelse påvirke organisationens informationssikkerhed og risici. Derfor bør man altid overveje hvilke vurderinger, der skal indgå i arbejdet med softwarerobotter, og med hvor stor vægt. Det indledende arbejde med egnethedsvurdering er et godt udgangspunkt for at tage stilling til scope for arbejdet med risikostyring og andre vurderingsopgaver. Det kan være risikovurdering, herunder trussels- og sårbarhedsvurdering, konsekvensvurdering, kritikalitetsvurdering og sikkerhedsvurdering. I afsnittet om trusler og sårbarheder finder du et generelt trusselskatalog med særligt fokus på brugerstyring af softwarerobotter, som kan bruges som udgangspunkt for udarbejdelsen af jeres lokale trusselskatalog.
 
-Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egnethedsvurdering-af-processer-til-automatisering)
-
-4o) og [Trusler og sårbarheder i forhold til softwarerobotter](#trusler-og-sårbarheder-i-forhold-til-softwarerobotter).
+Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egnethedsvurdering-af-processer-til-automatisering) og [Trusler og sårbarheder i forhold til softwarerobotter](#trusler-og-sårbarheder-i-forhold-til-softwarerobotter).
 
 #### Risikostyringsprocessen
 
