@@ -549,7 +549,7 @@ Forløbet er illustreret i nedenstående:
 
 
 
-![Figur 6.png](assets/2f114d7d1fb431f9b7f8406b12d98c32f758c3f8.png)
+<img title="" src="assets/2f114d7d1fb431f9b7f8406b12d98c32f758c3f8.png" alt="Figur 6.png" width="410">
 
 *Figur 6 Figuren viser tildeling af attributter, der markerer henholdsvis en medarbejder og en robot*
 
@@ -617,7 +617,9 @@ For at komme frem til den vægtede liste af risici, skal man først _identificer
 
 Dernæst laver man en _afvejning af konsekvenserne_ for forretning og eventuelt for behandlede datasubjekter over for _sandsynligheden_ for, at en trussel vil udnytte en sårbarhed og faktisk udløse konsekvensen. Denne sammenhæng illustreres i nedenstående figur:
 
-![Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.](/sites/default/fileuploads/Metoder/Arkitekturmetoder/Erfaringsopsamling_om_softwarerobotter_og_brugerstyring/Figur%208.jpg)
+
+
+![Figur 8.jpg](assets/ecce50520294ce16bd579262d89f1ed1ed642cb0.jpg)
 
 Figur 8 Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.
 
