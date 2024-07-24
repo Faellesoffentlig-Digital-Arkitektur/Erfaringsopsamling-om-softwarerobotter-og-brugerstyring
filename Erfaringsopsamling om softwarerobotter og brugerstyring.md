@@ -505,7 +505,7 @@ I dette scenarie opererer robotten på et enkelt, to eller flere interne systeme
 
 
 
-<img title="" src="assets/a25db483d1755b7bbf9b3ef113dd5f0826166cdf.svg" alt="Figur5.svg" width="398">
+<img src="assets/a25db483d1755b7bbf9b3ef113dd5f0826166cdf.svg" title="" alt="Figur5.svg" width="415">
 
 *Figur 5 Denne figur viser en robot, der opererer på to interne og et eksternt system.*
 
