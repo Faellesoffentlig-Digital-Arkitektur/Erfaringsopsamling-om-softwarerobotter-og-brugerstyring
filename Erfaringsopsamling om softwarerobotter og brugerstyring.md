@@ -298,8 +298,6 @@ Eksempelvis har kommunernes kontrolenheder ofte behov for at benytte banklogin,
 
 Det er tilfældet, hvor en kommune har behov for at sammenstille gældssaneringer fra Statstidende med borgere i kommunens debitorsystem. Fordi der ikke findes CPR-numre i Statstidendes gældssaneringer, må kommunen anvende Serviceplatformen til at finde CPR-nummer ud fra navn og adresse. Serviceplatformen kræver login med MOCES-certifikat, men har et API, som softwarerobotten kan anvende i processen.
 
-
-
 ![Figur2.svg](assets/2b9c42fb6c300dacca5e73084874c52bc92fb79d.svg)
 
 *Figur 2 Proces, hvor en kommune sammenstiller gældssaneringer fra Statstidende med borgere i kommunens debitorsystem.*
@@ -461,8 +459,6 @@ Hertil kommer den danske eID-gateway, som har ansvar for at kommunikere med de a
 
 I dette scenarie opererer robotten på et enkelt internt system.
 
-
-
 <img title="" src="assets/aa2bb60b5a88de2d9a7a93241247f1f6d0920844.svg" alt="Figur3.svg" width="171">
 
 *Figur 3 Figuren viser en robot, der agerer på ét internt system.*
@@ -482,8 +478,6 @@ Selvom det betyder, at der ikke er behov for et rammeværk for tillid til ekster
 
 I dette scenarie opererer robotten på to (eller flere) interne systemer.
 
-
-
 <img title="" src="assets/780b83bf4c7abc668048b206404e8c7af76adf8d.svg" alt="Figur4.svg" width="262">
 
 *Figur 4 Figuren viser en robot, der opererer på to interne systemer.*
@@ -502,8 +496,6 @@ Foruden ovenstående anbefalinger til det simple setup bør man være opmærksom
 #### Komplekst set-up: Robot på et eller flere interne og eksterne systemer
 
 I dette scenarie opererer robotten på et enkelt, to eller flere interne systemer samt - og det er den afgørende forskel - på et eksternt system.
-
-
 
 <img src="assets/a25db483d1755b7bbf9b3ef113dd5f0826166cdf.svg" title="" alt="Figur5.svg" width="415">
 
@@ -547,8 +539,6 @@ Adgangsprocessen til applikationen kan herefter udspilles på denne måde:
 
 Forløbet er illustreret i nedenstående:
 
-
-
 <img title="" src="assets/2f114d7d1fb431f9b7f8406b12d98c32f758c3f8.png" alt="Figur 6.png" width="410">
 
 *Figur 6 Figuren viser tildeling af attributter, der markerer henholdsvis en medarbejder og en robot*
@@ -576,8 +566,6 @@ Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egn
 #### Risikostyringsprocessen
 
 Dette afsnit tager udgangspunkt i [_Vejledning til risikostyring indenfor informationssikkerhed_](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) _(_Digitaliseringsstyrelsen 2020), som har til formål at hjælpe med at etablere en risikostyringsproces. Vejledningen beskriver hovedaktiviteterne i risikostyring, som vi her giver en oversigt over med fokus på særlige aspekter i forhold arbejdet med softwarerobotter. Nedenstående figur fra vejledningen er inspireret af ISO 27005 standarden for risikostyring og illustrerer risikostyringsprocessen.
-
-
 
 ![Figur 7.jpg](assets/b26718e59ff0eed324ddc58411b6decf7c0ce3fd.jpg)
 
@@ -619,11 +607,11 @@ Dernæst laver man en _afvejning af konsekvenserne_ for forretning og eventuelt 
 
 
 
-![Figur 8.jpg](assets/ecce50520294ce16bd579262d89f1ed1ed642cb0.jpg)
+![Figur8.svg](assets/17d9b20d73d2e3843021d4ceb566f5ffa66bf903.svg)
 
-Figur 8 Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.
+*Figur 8 Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.*
 
-Proces for risikovurdering.
+Proces for risikovurdering
 
 Læs mere i afsnittet [Trusler og sårbarheder i forhold til softwarerobotter](#trusler-og-sårbarheder-i-forhold-til-softwarerobotter).
 
@@ -756,8 +744,6 @@ Der gennemføres et sikkerhedsreview af robotkoden, før den sættes i produktio
 Her er en procesmodel for sikkerhedsreview og deployment, som vi har lånt fra Statens Administration. Robottyperne A, B, C referer til den model for klassifikation, som anvendes i Statens Administration.
 
 RFC står for Request for Change og er et reference ID-nummer i change management systemet, så man altid kan spore hvorfor en ændring er sket.
-
-
 
 ![Figur 9.jpg](assets/25f168cd1a0e54d1dbb94f1cfd2d07e8726807af.jpg)
 
@@ -1059,8 +1045,6 @@ Udover ovennævnte kan det nævnes, at Statens Administration også har en inter
 
 Nedenfor er et eksempel på visning af informationer om et robot-aktiv.
 
-
-
 ![Figur 10.jpg](assets/ae6eeba62de5ef65ed6aafea838c5b33462ee458.jpg)
 
 *Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.*
@@ -1096,8 +1080,6 @@ Modellens scope er livscyklus for idéer, udvikling og drift af automatiseringer
 Processen er gearet til at håndtere fire typer af ændringsønsker: Idé til automatisering, Ændringsønske til robot, Ændring til RPA platform og Ændring til fagsystem.
 
 Modellen rummer fire hovedfaser: 1) Visitering og prioritering, 2) Udvikling, 3) Accepttest og idriftsættelse, 4) Overvågning og drift samt før- og efter-faserne 0) idébeskrivelse og 5) Udfasning og arkivering.
-
-
 
 ![Figur 11.jpg](assets/1616e8d82fa152d3a192a44bcbd020bdd874e9d5.jpg)
 
@@ -1240,15 +1222,11 @@ Når man følger dette mønster for indsamling, vurdering og handling ved udvikl
 
 ##### Generel metode
 
-
-
 <img title="" src="assets/4d48921a2096ca75ad3ccb06060090f448c0e494.jpg" alt="Figur 12.jpg" width="165">
 
 *Figur 12 Udvikling af softwarerobot efter mønstret Indsamling, vurdering, handling. Illustreret som generel metode.*
 
 ##### Eksempel: Betaling af lægeregninger
-
-
 
 <img src="assets/24699a36e8a1dbcac7d407c0e81ba08368baa23d.jpg" title="" alt="Figur 13.jpg" width="256">
 
@@ -1284,8 +1262,6 @@ Efterhånden som arbejdet med robotter udvikler sig, vil der naturligt være beh
 #### Et samlet systemlandskab
 
 Med udgangspunkt i samarbejdet mellem SAM og SIT viser den nedenstående figur et generaliseret eksempel på et samlet systemlandskab, der kan understøtte udvikling, porteføljestyring, test, afvikling og brugerstyring af softwarerobotter:
-
-
 
 ![Figur 14.jpg](assets/a0ef75f5ea36dbfb0275a9cc10b3c68dea6a1e47.jpg)
 
@@ -1507,5 +1483,3 @@ Du kan finde links til kilder og baggrundsmateriale i tabellen nedenfor. Der lin
 | Erhvervsstyrelsen og Digitaliseringsstyrelsen | Vejledning til risikostyring indenfor informationssikkerhed: [https://www.sikkerdigital.dk/media/6835/vejledning\_til\_risikostyring-\_nden\_for\_informationssikkerhed\_2020.pdf](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) |
 | Erhvervsstyrelsen og Digitaliseringsstyrelsen | Vejledning til trusselsidentifikation: [https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf](https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf)                                                                                             |
 | Statens It                                    | Automatisering: [https://statens-it.dk/services/udvikling-af-faelles-services/automatisering/](https://statens-it.dk/services/udvikling-af-faelles-services/automatisering/)                                                                                                                      |
-
-
