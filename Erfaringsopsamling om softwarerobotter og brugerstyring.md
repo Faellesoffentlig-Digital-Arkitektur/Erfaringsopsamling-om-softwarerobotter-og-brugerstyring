@@ -605,8 +605,6 @@ For at komme frem til den vægtede liste af risici, skal man først _identificer
 
 Dernæst laver man en _afvejning af konsekvenserne_ for forretning og eventuelt for behandlede datasubjekter over for _sandsynligheden_ for, at en trussel vil udnytte en sårbarhed og faktisk udløse konsekvensen. Denne sammenhæng illustreres i nedenstående figur:
 
-
-
 ![Figur8.svg](assets/17d9b20d73d2e3843021d4ceb566f5ffa66bf903.svg)
 
 *Figur 8 Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.*
