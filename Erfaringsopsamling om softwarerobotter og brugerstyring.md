@@ -191,6 +191,7 @@ Et konkret eksempel er Statens Administration der opererer med en såkaldt J-bru
 
 Læs mere om i afsnittet [Typer af brugere i robotarbejdet](#typer-af-brugere-i-robotarbejdet).
 
+
 #### Hvis robotten anvender en medarbejders identitet
 
 Det er ikke god praksis at lade en robot agere autonomt med anvendelse af en medarbejderidentitet. Eksempelvis er brug af et medarbejdercertifikat som MOCES til softwarerobotter ikke tilladt i certifikatpolitikken for de danske MOCES-certifikater.
