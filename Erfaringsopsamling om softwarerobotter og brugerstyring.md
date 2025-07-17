@@ -299,7 +299,7 @@ Eksempelvis har kommunernes kontrolenheder ofte behov for at benytte banklogin,
 
 Det er tilfældet, hvor en kommune har behov for at sammenstille gældssaneringer fra Statstidende med borgere i kommunens debitorsystem. Fordi der ikke findes CPR-numre i Statstidendes gældssaneringer, må kommunen anvende Serviceplatformen til at finde CPR-nummer ud fra navn og adresse. Serviceplatformen kræver login med MOCES-certifikat, men har et API, som softwarerobotten kan anvende i processen.
 
-![Figur2.svg](assets/2b9c42fb6c300dacca5e73084874c52bc92fb79d.svg)
+![Figur2_Proces_hvor_en_kommune_sammenstillergældssaneringer_fra_Statstidende_med_borgere_i_kommunens_debitorsystem.svg](assets/Figur2_Proces_hvor_en_kommune_sammenstillergældssaneringer_fra_Statstidende_med_borgere_i_kommunens_debitorsystem.svg)
 
 *Figur 2 Proces, hvor en kommune sammenstiller gældssaneringer fra Statstidende med borgere i kommunens debitorsystem.*
 
