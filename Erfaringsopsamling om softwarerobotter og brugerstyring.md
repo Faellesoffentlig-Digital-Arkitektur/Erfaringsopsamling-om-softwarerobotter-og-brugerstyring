@@ -540,7 +540,7 @@ Adgangsprocessen til applikationen kan herefter udspilles på denne måde:
 
 Forløbet er illustreret i nedenstående:
 
-<img title="" src="assets/2f114d7d1fb431f9b7f8406b12d98c32f758c3f8.png" alt="Figur 6.png" width="410">
+![Figur6_Figuren_viser_tildeling_af_attributter_der_markerer_henholdsvis_en_medarbejder_og_en_robot.svg](assets/Figur6_Figuren_viser_tildeling_af_attributter_der_markerer_henholdsvis_en_medarbejder_og_en_robot.svg)
 
 *Figur 6 Figuren viser tildeling af attributter, der markerer henholdsvis en medarbejder og en robot*
 
@@ -568,7 +568,7 @@ Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egn
 
 Dette afsnit tager udgangspunkt i [_Vejledning til risikostyring indenfor informationssikkerhed_](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) _(_Digitaliseringsstyrelsen 2020), som har til formål at hjælpe med at etablere en risikostyringsproces. Vejledningen beskriver hovedaktiviteterne i risikostyring, som vi her giver en oversigt over med fokus på særlige aspekter i forhold arbejdet med softwarerobotter. Nedenstående figur fra vejledningen er inspireret af ISO 27005 standarden for risikostyring og illustrerer risikostyringsprocessen.
 
-![Figur 7.jpg](assets/b26718e59ff0eed324ddc58411b6decf7c0ce3fd.jpg)
+![Figur7_Figuren_viser_hovedaktiviteterne_i_risikostyring.svg](assets/Figur7_Figuren_viser_hovedaktiviteterne_i_risikostyring.svg)
 
 *Figur 7 Figuren viser hovedaktiviteterne i risikostyring, som også forklares i teksten, der kommer efter figuren.*
 
@@ -606,7 +606,7 @@ For at komme frem til den vægtede liste af risici, skal man først _identificer
 
 Dernæst laver man en _afvejning af konsekvenserne_ for forretning og eventuelt for behandlede datasubjekter over for _sandsynligheden_ for, at en trussel vil udnytte en sårbarhed og faktisk udløse konsekvensen. Denne sammenhæng illustreres i nedenstående figur:
 
-![Figur8.svg](assets/17d9b20d73d2e3843021d4ceb566f5ffa66bf903.svg)
+![Figur8_Figuren_vise_processen_for_risikovurdering.svg](assets/Figur8_Figuren_vise_processen_for_risikovurdering.svg)
 
 *Figur 8 Figuren viser processen for risikovurdering, som det beskrives i teksten ovenfor.*
 
