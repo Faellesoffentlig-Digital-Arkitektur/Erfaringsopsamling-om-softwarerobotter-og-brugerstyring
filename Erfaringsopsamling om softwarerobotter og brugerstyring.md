@@ -1080,7 +1080,7 @@ Processen er gearet til at håndtere fire typer af ændringsønsker: Idé til au
 
 Modellen rummer fire hovedfaser: 1) Visitering og prioritering, 2) Udvikling, 3) Accepttest og idriftsættelse, 4) Overvågning og drift samt før- og efter-faserne 0) idébeskrivelse og 5) Udfasning og arkivering.
 
-![Figur 11.jpg](assets/1616e8d82fa152d3a192a44bcbd020bdd874e9d5.jpg)
+![Figur 11.jpg](assets/Figur11_Fra_strategi_over_arkitektur_til_løsninger.jpg)
 
 *Figur 11 Figuren viser Statens Administrations livscyklus for ideer, udvikling og drift af automatiseringer.*
 
@@ -1221,13 +1221,13 @@ Når man følger dette mønster for indsamling, vurdering og handling ved udvikl
 
 ##### Generel metode
 
-<img title="" src="assets/4d48921a2096ca75ad3ccb06060090f448c0e494.jpg" alt="Figur 12.jpg" width="165">
+![Figur12_Udvikling_af_softwarerobot_efter_mønstret_Indsamling_vurdering_handling.jpg](assets/Figur12_Udvikling_af_softwarerobot_efter_mønstret_Indsamling_vurdering_handling.jpg)
 
 *Figur 12 Udvikling af softwarerobot efter mønstret Indsamling, vurdering, handling. Illustreret som generel metode.*
 
 ##### Eksempel: Betaling af lægeregninger
 
-<img src="assets/24699a36e8a1dbcac7d407c0e81ba08368baa23d.jpg" title="" alt="Figur 13.jpg" width="256">
+![Figur13_Udvikling_af_softwarerobot_efter_mønstret_Indsamling_vurdering_handling.jpg](assets/Figur13_Udvikling_af_softwarerobot_efter_mønstret_Indsamling_vurdering_handling.jpg)
 
 *Figur 13 Udvikling af softwarerobot efter mønstret Indsamling, vurdering, handling.  Illustreret som eksempel med betaling af lægeregninger i Odense Kommune.*
 
@@ -1262,7 +1262,7 @@ Efterhånden som arbejdet med robotter udvikler sig, vil der naturligt være beh
 
 Med udgangspunkt i samarbejdet mellem SAM og SIT viser den nedenstående figur et generaliseret eksempel på et samlet systemlandskab, der kan understøtte udvikling, porteføljestyring, test, afvikling og brugerstyring af softwarerobotter:
 
-![Figur 14.jpg](assets/a0ef75f5ea36dbfb0275a9cc10b3c68dea6a1e47.jpg)
+![Figur14_Figuren_viser_et_eksempel_på_samlet_systemlandskab_fra_Statens_Administration_og_Statens_it.jpg](assets/Figur14_Figuren_viser_et_eksempel_på_samlet_systemlandskab_fra_Statens_Administration_og_Statens_it.jpg)
 
 *Figur 14 Figuren viser et eksempel på samlet systemlandskab fra Statens Administration og Statens it.*
 
