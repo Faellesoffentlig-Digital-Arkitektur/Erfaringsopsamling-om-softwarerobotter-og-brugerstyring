@@ -460,7 +460,7 @@ Hertil kommer den danske eID-gateway, som har ansvar for at kommunikere med de a
 
 I dette scenarie opererer robotten på et enkelt internt system.
 
-<img title="" src="assets/aa2bb60b5a88de2d9a7a93241247f1f6d0920844.svg" alt="Figur3.svg" width="171">
+![Figur3_Figuren_viser_en_robot_der_agerer_på_et_internt_system.svg](assets/Figur3_Figuren_viser_en_robot_der_agerer_på_et_internt_system.svg)
 
 *Figur 3 Figuren viser en robot, der agerer på ét internt system.*
 
@@ -479,7 +479,7 @@ Selvom det betyder, at der ikke er behov for et rammeværk for tillid til ekster
 
 I dette scenarie opererer robotten på to (eller flere) interne systemer.
 
-<img title="" src="assets/780b83bf4c7abc668048b206404e8c7af76adf8d.svg" alt="Figur4.svg" width="262">
+![Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer.svg](assets/Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer)
 
 *Figur 4 Figuren viser en robot, der opererer på to interne systemer.*
 
@@ -498,7 +498,7 @@ Foruden ovenstående anbefalinger til det simple setup bør man være opmærksom
 
 I dette scenarie opererer robotten på et enkelt, to eller flere interne systemer samt - og det er den afgørende forskel - på et eksternt system.
 
-<img src="assets/a25db483d1755b7bbf9b3ef113dd5f0826166cdf.svg" title="" alt="Figur5.svg" width="415">
+![Figur5_Denne_figur_viser_en_robot_der_opererer_på_to_interne_og_et_eksternt_system.svg](assets/Figur5_Denne_figur_viser_en_robot_der_opererer_på_to_interne_og_et_eksternt_system.svg)
 
 *Figur 5 Denne figur viser en robot, der opererer på to interne og et eksternt system.*
 
