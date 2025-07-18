@@ -1080,7 +1080,7 @@ Processen er gearet til at håndtere fire typer af ændringsønsker: Idé til au
 
 Modellen rummer fire hovedfaser: 1) Visitering og prioritering, 2) Udvikling, 3) Accepttest og idriftsættelse, 4) Overvågning og drift samt før- og efter-faserne 0) idébeskrivelse og 5) Udfasning og arkivering.
 
-![Figur 11.jpg](assets/Figur11_Fra_strategi_over_arkitektur_til_løsninger.jpg)
+![Figur11_viser_Statens_Administrations_livscyklus_for_ideer_udvikling_og_drift_af_automatiseringer.jpg](assets/Figur11_viser_Statens_Administrations_livscyklus_for_ideer_udvikling_og_drift_af_automatiseringer.jpg)
 
 *Figur 11 Figuren viser Statens Administrations livscyklus for ideer, udvikling og drift af automatiseringer.*
 
