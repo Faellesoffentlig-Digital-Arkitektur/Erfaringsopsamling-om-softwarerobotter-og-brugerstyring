@@ -744,7 +744,7 @@ Her er en procesmodel for sikkerhedsreview og deployment, som vi har lånt fra S
 
 RFC står for Request for Change og er et reference ID-nummer i change management systemet, så man altid kan spore hvorfor en ændring er sket.
 
-![Figur 9.jpg](assets/25f168cd1a0e54d1dbb94f1cfd2d07e8726807af.jpg)
+![Figur9_Figuren_viser_Statens_Administrations_proces_for_sikkerhedsreview_og_deployment.svg](assets/Figur9_Figuren_viser_Statens_Administrations_proces_for_sikkerhedsreview_og_deployment.svg)
 
 *Figur 9 Figuren viser Statens Administrations proces for sikkerhedsreview og deployment.*
 
@@ -1044,7 +1044,7 @@ Udover ovennævnte kan det nævnes, at Statens Administration også har en inter
 
 Nedenfor er et eksempel på visning af informationer om et robot-aktiv.
 
-![Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.svg](assets/Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.svg)
+![Figur10_Figuren_viser_et_eksempel_fra_Statens_Administration_på_visning_af_informationer_om_et_robotaktiv.svg](assets/Figur10_Figuren_viser_et_eksempel_fra_Statens_Administration_på_visning_af_informationer_om_et_robotaktiv.svg)
 
 *Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.*
 
