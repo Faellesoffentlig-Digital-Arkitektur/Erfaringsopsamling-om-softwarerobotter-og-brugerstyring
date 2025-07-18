@@ -1044,7 +1044,7 @@ Udover ovennævnte kan det nævnes, at Statens Administration også har en inter
 
 Nedenfor er et eksempel på visning af informationer om et robot-aktiv.
 
-![Figur 10.jpg](assets/ae6eeba62de5ef65ed6aafea838c5b33462ee458.jpg)
+![Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.svg](assets/Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.svg)
 
 *Figur 10 Figuren viser et eksempel fra Statens Administration på visning af informationer om et robot-aktiv.*
 
