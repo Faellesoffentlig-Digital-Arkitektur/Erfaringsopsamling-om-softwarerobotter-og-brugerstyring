@@ -479,7 +479,7 @@ Selvom det betyder, at der ikke er behov for et rammeværk for tillid til ekster
 
 I dette scenarie opererer robotten på to (eller flere) interne systemer.
 
-![Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer.svg](assets/Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer)
+![Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer.svg](assets/Figur4_Figuren_viser_en_robot_der_opererer_på_to_interne_systemer.svg)
 
 *Figur 4 Figuren viser en robot, der opererer på to interne systemer.*
 
