@@ -252,7 +252,7 @@ VOCES- og FOCES-certifikater består af en privat nøgle (og password) og en off
 
 Den kommende fællesoffentlige infrastruktur med MitID og NemLog-in3 vil fremover understøtte login, som ikke er baseret på certifikater (PKI-teknologi).
 
-Læs mere om [OCES-certifikater her](https://digst.dk/it-loesninger/nemlog-in/om-loesningen/aendring-i-funktionaliteter/certifikater-moces-foces-og-voces/).
+Læs mere om [OCES-certifikater her](https://arkitektur.digst.dk/oces-offentlige-certifikater-til-elektronisk-service-certifikatpolitikker).
 
 #### National Standard for Identiteters Sikringsniveauer (NSIS)
 
@@ -262,7 +262,7 @@ Bemærk at der ikke findes noget rammeværk for robotidentiteter svarende til NS
 
 Når MitID og NemLog-in3 løsningerne går i luften, vil NSIS samtidig blive taget i fuld anvendelse. Dette medfører en række nye krav til de parter, der ønsker at blive tilkoblet den nationale, digitale identitetsinfrastruktur.
 
-[Læs mere om NSIS her](https://digst.dk/it-loesninger/nemlog-in/anvendelse/nsis-standarden/).
+[Læs mere om NSIS her](https://digst.dk/it-loesninger/standarder/nsis//).
 
 #### Brug af funktionscertifikater
 
@@ -303,7 +303,7 @@ Det er tilfældet, hvor en kommune har behov for at sammenstille gældssaneringe
 
 *Figur 2 Proces, hvor en kommune sammenstiller gældssaneringer fra Statstidende med borgere i kommunens debitorsystem.*
 
-Læs mere på KL’s hjemmeside om hvordan [robotter hjælper Horsens Kommune](https://videncenter.kl.dk/cases/nyheder/robot-hjaelper-horsens-kommune-med-at-finde-oekonomiske-udestaaender/).
+Læs mere om hvordan [robotter hjælper Horsens Kommune](https://digitaliseringskataloget.dk/robotterne-rykker-ind-i-horsens-kommune).
 
 I forhold til anvendelsen af softwarerobotter skelnes imellem om softwarerobotter opererer overvåget eller autonomt. Førstnævnte foregår ved, at medarbejderen foretager log-in, starter robotten og foretager kontrol af dens arbejde. Sidstnævnte benyttes ofte i forbindelse med større batch-operationer, hvor der ikke er behov for trinvis menneskelig indgriben, og det er særligt denne anvendelse, der er problematisk i forhold til anvendelsen af medarbejderes identiteter.
 
@@ -566,7 +566,7 @@ Læs mere i afsnittene [Egnethedsvurdering af processer til automatisering](#egn
 
 #### Risikostyringsprocessen
 
-Dette afsnit tager udgangspunkt i [_Vejledning til risikostyring indenfor informationssikkerhed_](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) _(_Digitaliseringsstyrelsen 2020), som har til formål at hjælpe med at etablere en risikostyringsproces. Vejledningen beskriver hovedaktiviteterne i risikostyring, som vi her giver en oversigt over med fokus på særlige aspekter i forhold arbejdet med softwarerobotter. Nedenstående figur fra vejledningen er inspireret af ISO 27005 standarden for risikostyring og illustrerer risikostyringsprocessen.
+Dette afsnit tager udgangspunkt i [_Vejledning til risikostyring indenfor informationssikkerhed_](https://www.kl.dk/media/lshc0z5a/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) _(_Digitaliseringsstyrelsen 2020), som har til formål at hjælpe med at etablere en risikostyringsproces. Vejledningen beskriver hovedaktiviteterne i risikostyring, som vi her giver en oversigt over med fokus på særlige aspekter i forhold arbejdet med softwarerobotter. Nedenstående figur fra vejledningen er inspireret af ISO 27005 standarden for risikostyring og illustrerer risikostyringsprocessen.
 
 ![Figur7_Figuren_viser_hovedaktiviteterne_i_risikostyring.svg](assets/Figur7_Figuren_viser_hovedaktiviteterne_i_risikostyring.svg)
 
@@ -647,8 +647,8 @@ Denne del af risikostyringen kan med fordel indarbejdes i den løbende porteføl
 
 Der findes en række støttende materialer, der går i dybden med, hvordan man vurderer trusler, sårbarheder og konsekvenser, både for forretningen og de registrerede, henholdsvis hos Sikkerdigital.dk og datatilsynet.dk.
 
-* [Vejledning til risikostyring indenfor informationssikkerhed](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) (Digitaliseringsstyrelsen 2020 på sikkerdigital.dk)
-* [Vejledningsmateriale i forhold til databeskyttelse](https://www.datatilsynet.dk/hvad-siger-reglerne/vejledning) (Datatilsynet). Se fx _Vejledning til trusselsidentifikation_ og _Vejledning til konsekvensvurdering_.
+* [Vejledning til risikostyring indenfor informationssikkerhed](https://www.kl.dk/media/lshc0z5a/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) (Digitaliseringsstyrelsen 2020 på kl.dk)
+* [Vejledningsmateriale i forhold til databeskyttelse](https://www.datatilsynet.dk/regler-og-vejledning) (Datatilsynet). Se fx _Vejledning til trusselsidentifikation_ og _Vejledning til konsekvensvurdering_.
 * Hjemmesiden [http://sikkerdigital.dk](http://sikkerdigital.dk) indeholder desuden generelle kataloger over risici og sårbarheder, som man med fordel kan orientere sig i.
 
 #### Tjekliste
@@ -697,7 +697,7 @@ Personoplysninger er defineret som enhver form for information, der kan henføre
 
 En høj risiko for de registreredes rettigheder betyder, at man i design af system og tilhørende forretningsprocesser skal være særligt opmærksom på at reducere denne risiko. Herudover er der en række rettigheder i databeskyttelsesforordningen, der skal overholdes, bl.a. at den registrerede har ret til indsigt i data om pågældende, ret til berigtigelse, ret til sletning og ret til indsigelse.
 
-Disse rettigheder gøres som udgangspunkt gældende over for den dataansvarlige, men leverandøren kan forpligtes til at bistå med udøvelsen af disse rettigheder. For nærmere beskrivelse af de registreredes rettigheder henvises der til Datatilsynets ”[Vejledning om de registreredes rettigheder](https://www.datatilsynet.dk/media/6893/registreredes-rettigheder.pdf)” (juli 2018).
+Disse rettigheder gøres som udgangspunkt gældende over for den dataansvarlige, men leverandøren kan forpligtes til at bistå med udøvelsen af disse rettigheder. For nærmere beskrivelse af de registreredes rettigheder henvises der til Datatilsynets ”[Vejledning om de registreredes rettigheder](https://www.datatilsynet.dk/Media/C/0/Registreredes%20rettigheder.pdf)” (juli 2018).
 
 #### Trusselskatalog
 
@@ -705,7 +705,7 @@ I den nedenstående tabel har vi udarbejdet en oversigt over relevante trusler, 
 
 Listen tager udgangspunkt i trusselskataloget, der findes som bilag til Vejledning til risikostyring inden for informationssikkerhed, og den er udbygget med baggrund i Referencearkitektur for brugerstyring samt erfaringer fra det offentliges anvendelse af softwarerobotter_._
 
-Læs mere i [Vejledning til risikostyring indenfor informationssikkerhed](https://sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) og [Referencearkitektur for brugerstyring](https://arkitektur.digst.dk/node/123)
+Læs mere i [Vejledning til risikostyring indenfor informationssikkerhed](https://www.kl.dk/media/lshc0z5a/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) og [Referencearkitektur for brugerstyring](https://arkitektur.digst.dk/node/123)
 
 NB! Det er vigtigt at bemærke, at dette katalog **ikke er udtømmende! Det er altid nødvendigt med en konkret vurdering af den aktuelle kontekst for automatisering og anvendelse af softwarerobotter.**
 
@@ -723,7 +723,7 @@ NB! Det er vigtigt at bemærke, at dette katalog **ikke er udtømmende! Det er a
 | Bevidst ødelæggelse af aktiver: Sabotage begået af hacker, hævngerrig medarbejder e.l. | En robot kan omkodes til at udføre skadelige handlinger i et tempo, normale medarbejdere ikke ville kunne gennemføre.                                                                                                                      | Risiko for omfattende skader på sagsbehandling og informationer.                                                                                                                                                                             | Logning og kontrol ved brug af værktøjer til kildekodestyring.                                                                                                             |
 | Driftsfejl: Fejl i udførslen af log-in.                                                | Robotter kan ikke anvende login systemer, der er baseret på biometri eller fysiske tokens som smartcards og One-time-password-tokens som NemID nøglekort.<br><br>Ved ændringer i økosystemets adgangsstyring kan robotten blive udelukket. | Driftsopgaver ophører med at blive udført.                                                                                                                                                                                                   | Aftaler med systemejere om anvendelse af softwarerobot kan indeholde aftale varsling af eventuelle ændringer af den/de tjenester der tilgås.                               |
 
-Læs mere i de to publikationer på henholdsvis Sikker Digital og Datatilsynets hjemmesider: [Vejledning til trusselsidentifikation](https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf) og [Vejledning til konsekvensanalyse](https://www.datatilsynet.dk/media/6563/konsekvensanalyse.pdf).
+Læs mere i de to publikationer på henholdsvis Sikker Digital og Datatilsynets hjemmesider: [Vejledning til trusselsidentifikation](https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf) og [Vejledning til konsekvensanalyse](https://www.datatilsynet.dk/regler-og-vejledning/behandlingssikkerhed/konsekvensanalyse).
 
 #### Tjekliste
 
@@ -1015,7 +1015,7 @@ Med en større mængde robotter, versioner og patches vil der være behov for no
 
 Der findes ikke en formel, obligatorisk standard for dokumentation af robotter. Ved opsætning af et dokumentationsværktøj og udvælgelse af metadata kan den fællesoffentlige standard for beskrivelse af IT systemer være et godt sted at starte. Her er det særligt relevant at se på de metadata, der bliver beskrevet som kerneinformationer samt metadata om it-systemejer. Med få tilpasninger bør denne standard kunne understøtte en del af behovet, og samtidig give overensstemmelse med dokumentation af andre it-systemer efter samme standard.
 
-Læse mere i [Den fællesoffentlige standard for beskrivelse af IT systemer](https://arkitektur.digst.dk/node/624) på arkitektur.digst.dk.
+Læse mere i [Den fællesoffentlige standard for beskrivelse af IT systemer](https://arkitektur.digst.dk/specifikationer/it-system) på arkitektur.digst.dk.
 
 I forhold til de særlige forhold, der er relevante ved dokumentation af softwarerobotter, kan man desuden søge inspiration hos andre myndigheder.
 
@@ -1454,8 +1454,8 @@ Her forklares ord og begreber, der er anvendt i erfaringsopsamlingen. Begreberne
 | MitID                    |                                                                  | fælles national identitets- og autentifikationsløsning, der afløser NemID                                                                                                                                                                                |
 | mitigering               |                                                                  | i denne sammenhæng: risikoen styres ved at indføre foranstaltninger, som fjerner eller reducerer sandsynligheden eller konsekvenserne                                                                                                                    |
 | NemLog-in3               |                                                                  | fællesoffentlige single-sign-on og brugerrettighedsstyringsløsning, der afløser NemLog-in2                                                                                                                                                               |
-| NSIS                     | National Standard for Identiteters Sikringsniveauer              | standard, der sætter rammer for tillid til digitale Identiteter samt digitale ID-tjenester. [Læs mere om NSIS her](https://digst.dk/it-loesninger/nemlog-in/anvendelse/nsis-standarden/)                                                                 |
-| OCES                     | Offentlige certifikater til Elektronisk Service                  | fællesoffentlig standard, der definerer et standardiseret og offentligt kontrolleret sikkerhedsniveau for udstedelse og anvendelse af den digitale signatur. [Læs mere om OCES her](https://digst.dk/it-loesninger/nemid/om-loesningen/oces-standarden/) |
+| NSIS                     | National Standard for Identiteters Sikringsniveauer              | standard, der sætter rammer for tillid til digitale Identiteter samt digitale ID-tjenester. [Læs mere om NSIS her](https://digst.dk/it-loesninger/standarder/nsis/)                                                                 |
+| OCES                     | Offentlige certifikater til Elektronisk Service                  | fællesoffentlig standard, der definerer et standardiseret og offentligt kontrolleret sikkerhedsniveau for udstedelse og anvendelse af den digitale signatur. [Læs mere om OCES her](https://arkitektur.digst.dk/node/1023) |
 | organisation             | formel organisation; juridisk enhed                              | en organisation, der –især i juridisk forstand –er bredt anerkendt og har tilhørende rettigheder og ansvar                                                                                                                                               |
 | person                   |                                                                  | fysisk person der kan være levende eller død, men ikke imaginær                                                                                                                                                                                          |
 | personhenførbare data    | persondata                                                       | data der indeholder personoplysninger som i sig selv eller i sammenhæng med andre data kan henføres til en bestemt person                                                                                                                                |
@@ -1473,12 +1473,12 @@ Du kan finde links til kilder og baggrundsmateriale i tabellen nedenfor. Der lin
 
 | Kilde                                         | Materiale                                                                                                                                                                                                                                                                                         |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Datatilsynet                                  | Vejledning om de registreredes rettigheder: [https://www.datatilsynet.dk/media/6893/registreredes-rettigheder.pdf](https://www.datatilsynet.dk/media/6893/registreredes-rettigheder.pdf)                                                                                                          |
-| Datatilsynet                                  | Vejledning til konsekvensanalyse: [https://modst.dk/media/19528/vejledning-om-konsekvensanalyser-maj-2005-afsnit-3-2-7-1-og-7-2-revideret-i-2018.pdf](https://modst.dk/media/19528/vejledning-om-konsekvensanalyser-maj-2005-afsnit-3-2-7-1-og-7-2-revideret-i-2018.pdf)                          |
-| Digitaliseringsstyrelsen                      | National Standard for Identiteters Sikringsniveauer (NSIS) Version 2.0.1: [https://digst.dk/media/22102/national-standard-for-identiteters-sikringsniveauer-nsis-version-201.pdf](https://digst.dk/media/22102/national-standard-for-identiteters-sikringsniveauer-nsis-version-201.pdf)          |
-| Digitaliseringsstyrelsen                      | OCES-certifikatpolitikker: [https://digst.dk/it-loesninger/nemid/om-loesningen/oces-standarden/oces-certifikatpolitikker/](https://digst.dk/it-loesninger/nemid/om-loesningen/oces-standarden/oces-certifikatpolitikker/)                                                                         |
+| Datatilsynet                                  | Vejledning om de registreredes rettigheder: [https://www.datatilsynet.dk/Media/C/0/Registreredes%20rettigheder.pdf](https://www.datatilsynet.dk/Media/C/0/Registreredes%20rettigheder.pdf)                                                                                                          |
+| Datatilsynet                                  | Vejledning til konsekvensanalyse: [https://www.datatilsynet.dk/Media/2/6/Konsekvensanalyse.pdf](https://www.datatilsynet.dk/Media/2/6/Konsekvensanalyse.pdf)                          |
+| Digitaliseringsstyrelsen                      | National Standard for Identiteters Sikringsniveauer (NSIS) Version 2.0.1: [https://digst.dk/it-loesninger/standarder/nsis/](https://digst.dk/it-loesninger/standarder/nsis/)          |
+| Digitaliseringsstyrelsen                      | OCES-certifikatpolitikker: [https://arkitektur.digst.dk/node/1023](https://arkitektur.digst.dk/node/1023)                                                                         |
 | Digitaliseringsstyrelsen                      | Referencearkitektur for brugerstyring version 1.1, [https://arkitektur.digst.dk/node/123](https://arkitektur.digst.dk/node/123)                                                                                                                                                                   |
-| Digitaliseringsstyrelsen                      | Standard for beskrivelse af it-systemer: [https://arkitektur.digst.dk/node/624](https://arkitektur.digst.dk/node/624)                                                                                                                                                                             |
-| Erhvervsstyrelsen og Digitaliseringsstyrelsen | Vejledning til risikostyring indenfor informationssikkerhed: [https://www.sikkerdigital.dk/media/6835/vejledning\_til\_risikostyring-\_nden\_for\_informationssikkerhed\_2020.pdf](https://www.sikkerdigital.dk/media/6835/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) |
+| Digitaliseringsstyrelsen                      | Standard for beskrivelse af it-systemer: [https://arkitektur.digst.dk/specifikationer/it-system](https://arkitektur.digst.dk/specifikationer/it-system)                                                                                                                                                                             |
+| Erhvervsstyrelsen og Digitaliseringsstyrelsen | Vejledning til risikostyring indenfor informationssikkerhed: [https://www.kl.dk/media/lshc0z5a/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf](https://www.kl.dk/media/lshc0z5a/vejledning_til_risikostyring-_nden_for_informationssikkerhed_2020.pdf) |
 | Erhvervsstyrelsen og Digitaliseringsstyrelsen | Vejledning til trusselsidentifikation: [https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf](https://sikkerdigital.dk/media/6837/vejledning-til-trusselsidentifikation.pdf)                                                                                             |
 | Statens It                                    | Automatisering: [https://statens-it.dk/services/udvikling-af-faelles-services/automatisering/](https://statens-it.dk/services/udvikling-af-faelles-services/automatisering/)                                                                                                                      |
