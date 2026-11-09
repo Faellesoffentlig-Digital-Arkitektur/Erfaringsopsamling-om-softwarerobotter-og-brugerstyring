@@ -67,7 +67,7 @@ Kapitlerne suppleres af introduktionen og tre bilag:
 
 Kapitlet **Brugerstyring af softwarerobotter** sætter med udgangspunkt i Referencearkitektur for brugerstyring de overordnede rammer for erfaringsopsamlingen, og kan derfor bruges som inspiration og støtte til beslutninger om, hvordan arbejdet med robotter kan gribes an, fx hvilke mønstre og metoder, der skal anvendes.
 
-I kapitlets indledende afsnit om **Typer af brugere i robotarbejdet** beskrives de forskellige typer af brugere med hovedvægt på de autonome og overvågede robotter. **Robottens identitet** dykker og ned i robotters identitet og emnet identifikations- og autentifikationsmidler, herunder problematikken med at anvende de personlige MOCES-certifikater til softwarerobotter, hvilket uddybes yderligere i det følgende afsnit **Robottens identifikations- og autentifikationsmidler,** der desuden handler om tildeling og anvendelse af passwords og certifikater. Efter afsnittet om tildeling af **Robottens rettigheder** følger et afsnit om **Robottens adgangsveje** til applikationer, efterfulgt af afsnittet **Adgangskontrol og logning af robotters handlinger** samt **Tillidstjenesters understøttelse af robotanvendelsen**. Kapitlet afsluttes med et afsnit med **Scenarier og mønstre for brugerstyring af robotter** med eksempler af forskellig kompleksitet.
+I kapitlets indledende afsnit om **Typer af brugere i robotarbejdet** beskrives de forskellige typer af brugere med hovedvægt på de autonome og overvågede robotter. **Robottens identitet** dykker og ned i robotters identitet og emnet identifikations- og autentifikationsmidler, herunder problematikken med at anvende de personlige MOCES-certifikater til softwarerobotter, hvilket uddybes yderligere i det følgende afsnit **Robottens identifikationsmidler,** der desuden handler om tildeling og anvendelse af passwords og certifikater. Efter afsnittet om tildeling af **Robottens rettigheder** følger et afsnit om **Robottens adgangsveje** til applikationer, efterfulgt af afsnittet **Adgangskontrol og logning af robotters handlinger** samt **Tillidstjenesters understøttelse af robotanvendelsen**. Kapitlet afsluttes med et afsnit med **Scenarier og mønstre for brugerstyring af robotter** med eksempler af forskellig kompleksitet.
 
 Mange af brugerstyringsudfordringerne er variationer af sikkerhedsproblemer, og derfor beskrives det i kapitlet **Informationssikkerhed og softwarerobotter**, hvordan risikostyring, håndtering af sårbarheder og trusler samt sikkerhedsprocesser kan håndteres i forhold til udvikling og anvendelse af softwarerobotter. Behandling af personoplysninger er også i fokus her.
 
@@ -207,7 +207,7 @@ Det er vigtigt at være opmærksom på, at én af de store udfordringer ved at l
 
 Desuden er det vigtigt, at der er god dokumentation af de identiteter, som robottens tildeles.
 
-* Læs mere om [robottens identifikations- og autentifikationsmidler](#scroll-bookmark-9).
+* Læs mere om [robottens identifikationsmidler](#scroll-bookmark-9).
 * Læs mere om [dokumentation af softwarerobotter her](#dokumentation-af-softwarerobotter).
 
 #### Tjekliste
@@ -382,7 +382,7 @@ Mange softwarerobotter er designet som en kopi af en brugers handlinger og adfæ
 
 Hvis adgangen sker via GUI, skal der naturligvis tages højde for de særlige udfordringer, der knytter sig til, at softwarerobotter anvendes med et NemID medarbejdercertifikat (MOCES), hvilket kun kan foregå overvåget og med medarbejderens eget personlige log-in, før robotten startes jf. afsnittet om certifikater.
 
-[Læs mere om certifikater i afsnittet Robottens identifikations- og autentifikationsmidler](#robottens-identitet)
+[Læs mere om certifikater i afsnittet Robottens identifikationsmidler](#robottens-identitet)
 
 ### Adgang direkte til databasen
 
@@ -504,7 +504,7 @@ I dette scenarie opererer robotten på et enkelt, to eller flere interne systeme
 
 Her er kravene til brugerstyring lidt mere komplekse, idet de nu er er bestemt af de interne eller eksterne retningslinjer og muligheder, der er for hver enkelt af de pågældende systemer. Governance og adgangspolitik ligger her hos flere systemejere med ansvar for de involverede forretningstjenester, og det er afgørende, at der er styr på rammer for anvendelse af den eksterne tjeneste gennem overholdelse af dennes adgangspolitik. Dette er særligt vigtigt og kan være en udfordring, hvor der ikke er en API-adgang, men alene adgang via en brugergrænseflade (GUI), og hvor opsætning fx som udgangspunkt kræver adgang med NemID/MitID.
 
-Læs mere om problematikken om brug af medarbejderidentiteter [i afsnittet Robottens identifikations- og autentifikationsmidler.](#robottens-identitet)
+Læs mere om problematikken om brug af medarbejderidentiteter [i afsnittet Robottens identifikationsmidler.](#robottens-identitet)
 
 Man bør være særligt opmærksom på muligheder - og eventuelle begrænsninger - for at identificere robotten som bruger på tværs af systemerne.
 
@@ -993,7 +993,7 @@ Det bør tydeligt dokumenteres hvilken brugeridentitet, robotten skal afvikles m
 
 Da softwarerobotter også er it-systemer, vil der desuden være behov for særlig opmærksomhed på dokumentation af udvikling, deployment og ændringer. Eksempelvis bør man dokumentere hvilke systemer, robotten agerer i, hvordan den tilgår dem, og om robotten håndterer følsomme data eller udfører opgaver med høj risiko. Ligeledes kan det være relevant at dokumentere eventuelle kriterier, der skal være opfyldt, før robotten selv starter eller kan igangsættes af en medarbejder.
 
-Læs mere i afsnittene [Robottens identitet](#scroll-bookmark-8) og [Robottens identifikations- og autentifikationsmidler](#scroll-bookmark-9).
+Læs mere i afsnittene [Robottens identitet](#scroll-bookmark-8) og [Robottens identifikationsmidler](#scroll-bookmark-9).
 
 #### Versionsstyring og konfigurationsstyring
 
@@ -1092,7 +1092,7 @@ Allerede i denne fase er det vigtigt at være opmærksom på særlige forhold ve
 
 Det kan allerede her være relevant at drøfte mulige alternative løsninger med den pågældende systemejer og afklare fælles forståelse af og rammer for håndtering af risici og sikkerhed. Det kan have stor betydning for prioritering og overordnet design af projektet og dermed arbejdet i de videre faser.
 
-Læs mere om problemstillinger og løsningsmuligheder ift. krav til identifikationsmidler i afsnittet [Robottens identifikations- og autentifikationsmidler](#robottens-identifikationsmidler).
+Læs mere om problemstillinger og løsningsmuligheder ift. krav til identifikationsmidler i afsnittet [Robottens identifikationsmidler](#robottens-identifikationsmidler).
 
 ##### 2\. Udvikling af robot
 
@@ -1121,7 +1121,7 @@ Denne fase omfatter den løbende drift, overvågning og vedligeholdelse af eksis
 
 Med hensyn til logning bør der ske logning af alle robottens operationer (“aktive handlinger”) på produktionsdata.
 
-Læs mere om udfordringer i forhold til krav til identifikations og autentifikationsmidler i afsnittet [Robottens identifikations- og autentifikationsmidler](#robottens-identifikationsmidler).
+Læs mere om udfordringer i forhold til krav til identifikations og autentifikationsmidler i afsnittet [Robottens identifikationsmidler](#robottens-identifikationsmidler).
 
 Med hensyn til vedligeholdelse og drift bør man være særligt være opmærksomme på, om der:
 
@@ -1346,7 +1346,7 @@ Denne tjekliste samler alle de tjeklister, der afslutter hvert afsnit i kapitler
 |                                                         | Er der systematisk dokumentation af den eller de identiteter, roller og rettigheder, den enkelte robot tildeles?                                                                                                                  |     |
 |                                                         | Er der en klar aftale med tjenesteudbyderen, hvis vores autonome softwarerobot skal logge ind med en medarbejders digitale identitet?                                                                                             |     |
 |                                                         | Er der en klar aftale med den medarbejder, som evt. stiller sin digitale identitet til rådighed for vores autonome softwarerobot?                                                                                                 |     |
-| Robottens identifikations- og autentifikationsmidler    |                                                                                                                                                                                                                                   |     |
+| Robottens identifikationsmidler                         |                                                                                                                                                                                                                                   |     |
 |                                                         | Er vi opmærksomme på de ændringer, der sker i forhold til certifikatanvendelsen i forbindelse med MitID og ny NemLog-in løsning, der implementeres fra 2021?                                                                      |     |
 |                                                         | Har vi sikret, at autonome robotter kan opnå adgang med egne identifikationsmidler, fx med VOCES/FOCES certifikat eller STS?                                                                                                      |     |
 |                                                         | Er vores robot opsat med identifikationsmidler, der kan give adgang til de relevante systemer i overensstemmelse med regler?                                                                                                      |     |
