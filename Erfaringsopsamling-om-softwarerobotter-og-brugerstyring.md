@@ -187,9 +187,9 @@ Det anbefales at bruge en særskilt attribut til at adskille robotbrugere fra pe
 
 Man kan opbygge et medarbejder-ID og et robot-ID efter forskellige standarder. En medarbejder har typisk et medarbejder-ID. Hos Statens IT anvender man eksempelvis et B-nummer som B123456 (B står for bruger). Tilsvarende kan en applikation/robot have et ID opbygget af et præfix (J) og et løbenummer. Ideelt set bør sådanne ID’ er være globalt unikke, men der findes ikke pt. en fællesoffentlig godkendt standard for dette.
 
-Et konkret eksempel er Statens Administration der opererer med en såkaldt J-bruger, som er en teknisk service-bruger-identitet, der kan tildeles adgangsrettigheder til produktionssystemer. En autonom robot etableres med andre ord her som en J-bruger.
+Et konkret eksempel er Statens Administration, der opererer med en såkaldt J-bruger, som er en teknisk service-bruger-identitet, der kan tildeles adgangsrettigheder til produktionssystemer. En autonom robot etableres med andre ord her som en J-bruger.
 
-Læs mere om i afsnittet [Typer af brugere i robotarbejdet](#typer-af-brugere-i-robotarbejdet).
+Læs mere om dette i afsnittet [Typer af brugere i robotarbejdet](#typer-af-brugere-i-robotarbejdet).
 
 
 #### Hvis robotten anvender en medarbejders identitet
@@ -222,11 +222,11 @@ Desuden er det vigtigt, at der er god dokumentation af de identiteter, som robot
 
 Som alle andre brugere har softwarerobotter behov for et elektronisk identifikationsmiddel, som de kan bekræfte deres identitet med. Det bliver relevant, når de skal tilgå en forretningstjeneste i overensstemmelse med adgangspolitikken.
 
-Et identifikationsmiddel er et middel, som fx en person eller en applikation, får udstedt til brug for autentifikation, og som benytter en eller flere autentifikationsfaktorer.
+Et identifikationsmiddel er et middel, som fx en person eller en applikation får udstedt til brug for autentifikation, og som benytter en eller flere autentifikationsfaktorer.
 
 Login-proceduren kræver typisk, at brugeren præsenterer et ID, et password og eventuelt lever op til supplerende krav til autentifikation som et certifikat eller to-faktor-autentifikation.
 
-En softwarerobot er begrænset i forhold til en fysisk person, da den ikke kan bære rundt på et fysisk identifikationsmiddel, som en NemID nøglekort eller en mobiltelefon.
+En softwarerobot er begrænset i forhold til en fysisk person, da den ikke kan bære rundt på et fysisk identifikationsmiddel, som et NemID-nøglekort eller en mobiltelefon.
 
 #### Robottens password
 
@@ -268,7 +268,7 @@ Når MitID og NemLog-in3 løsningerne går i luften, vil NSIS samtidig blive tag
 
 En softwarerobot bør anvende et identifikationsmiddel, der er egnet til applikationer såsom det danske funktionscertifikat FOCES. Brugeradministratoren kan eksempelvis udstede/tilknytte et robotegnet identifikationsmiddel, som fx et FOCES-certifikat i en krypteret PKCS#12 nøglefil med privat nøgle og certifikat, der kan installeres i en robotinstans.  Det er vigtigt, at organisationen, på samme måde som med menneskebrugere, sikrer, at kun den relevante og autoriserede robotinstans har adgang til nøglen.
 
-En del tjenester kan ikke tilbyde systemer og applikationer adgang via f.eks. funktionscertifikater. Der er forskellige årsager til, at der ikke er etableret sådan adgang, idet der i nogle tilfælde er tale om tjenester, hvor tilføjelsen af systemadgang vil være for kompleks og ressourcekrævende. I andre tilfælde er der tale om et bevidst fravalg, der begrundes med sikkerhedsforhold. Dog er der i mange tilfælde også tale om, at behovets omfang ikke er kendt, og at finansieringen af opgaven ikke er til stede. Under alle omstændigheder er det et aftaleforhold mellem tjenesteudbyder og anvender, hvor kredsen af brugere i samarbejde med tjenesteudbyderen bør undersøge mulighederne for at etablere adgange til systembrugere, så der kan etableres adgangsmuligheder for softwarerobotter med dertil egnede certifikater.
+En del tjenester kan ikke tilbyde systemer og applikationer adgang via fx funktionscertifikater. Der er forskellige årsager til, at der ikke er etableret sådan adgang, idet der i nogle tilfælde er tale om tjenester, hvor tilføjelsen af systemadgang vil være for kompleks og ressourcekrævende. I andre tilfælde er der tale om et bevidst fravalg, der begrundes med sikkerhedsforhold. Dog er der i mange tilfælde også tale om, at behovets omfang ikke er kendt, og at finansieringen af opgaven ikke er til stede. Under alle omstændigheder er det et aftaleforhold mellem tjenesteudbyder og anvender, hvor kredsen af brugere i samarbejde med tjenesteudbyderen bør undersøge mulighederne for at etablere adgange til systembrugere, så der kan etableres adgangsmuligheder for softwarerobotter med dertil egnede certifikater.
 
 ### Fødereret adgang gennem Security Token Service
 
@@ -366,7 +366,7 @@ I nogle tilfælde ser man, at robottens identitet bliver håndteret som en del a
 
 ### Robottens adgangsvej
 
-I praksis kan softwarerobotter tilgå applikationer igennem en udstillet teknisk snitflade (API som man typisk ville lade en applikation tilgå, eller robotten kan tilgå en grafisk brugergrænseflade (GUI), som en fysisk person ville gøre det. Endelig er der den mulighed, at robotten får adgang til at læse og skrive direkte til databasen.
+I praksis kan softwarerobotter tilgå applikationer igennem en udstillet teknisk snitflade (API), som man typisk ville lade en applikation tilgå, eller robotten kan tilgå en grafisk brugergrænseflade (GUI), som en fysisk person ville gøre det. Endelig er der den mulighed, at robotten får adgang til at læse og skrive direkte til databasen.
 
 I nogle forretningsprocesser giver det mening for en softwarerobot at have adgang til flere typer snitflader, fx hvis robotten skal agere på to forskellige systemer, hvor det ene system ikke tilbyder et API, men kun en GUI.
 
